@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>HTML FORM</legend>
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <!-- Dropdown -->
+            <select name="gender" id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>   
+            </select>
+            <br>
+            <br>
+            <!-- to select one from radios name should be same -->
+           <input type="radio" name="job" id="home">
+           <label for="home">Work From Home</label>
+           <input type="radio" name="job" id="remote">
+           <label for="remote">Remote</label>
+           <br>
+           <br>
+           <!-- checkboxes we are used to select multiple items -->
+           <input type="checkbox" name="one" id="one">
+           <label for="one">1</label>
+           <input type="checkbox" name="one" id="two">
+           <label for="two">2</label>
+           <input type="checkbox" name="one" id="three">
+           <label for="three">3</label>
+           <br>
+           <!-- input range -->
+           <input type="range" name="rating" id="rating" min="1" max="5">
+           <label for="age">Rating(1-5)</label>
+           <br>
+           <br>
+           <!-- file type input -->
+           <input type="file" name="resume" id="resume">
+           <br>
+           <br>
+           <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
