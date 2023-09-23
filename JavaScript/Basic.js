@@ -45,8 +45,8 @@ console.log(names[0])
 //Number and String
 let i="2"
 let j=3;
-console.log(i+j)   
-console.log(i*j)
+console.log(i+j)   //string
+console.log(i*j)   //number
 
 
 
