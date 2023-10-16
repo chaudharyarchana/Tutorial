@@ -1,0 +1,40 @@
+------Topics----------
+1. var v/s let
+2. Browser context API
+3. Execution context
+4. lexical Environment
+5. Spread Operator
+6. Truly v/s Falsy
+7. ForEach and for in
+------Start------------
+
+1. Var has a function scope , it adds itself to the window object, it can be redeclared.
+   let has {} scope , it is the part of ES6 version of JS , it can be reassigned only.
+
+2. Browser Context Api is a collection of window object, stack and heap memory present in Browser
+  2.1 window object - It contains many features and properties provided by browser like console.log, alert etc.
+  2.2 Stack - It is a type of Data structure which is used to store variables and points to their value which is stored in heap memory.
+  2.3 Heap Memory - It is a memory which is used to store data .
+
+3 . Execution Context - It is a container that is created whenever a function is called in the memory which contains
+    3.1 - Varibales - It is the list of variables present in the function
+    3.2 - Function - it contains all the functions that are declared inside the called function
+    3.3 - Lexical environment - it is a chart which conatins the details of accessable variables and functions by the calling function
+
+5. Spread Operator - It is used to copy reference variable. [...]
+   Arrays, objects, String
+   eg- const arr = [1,2,3]
+       const brr -[...arr]
+
+6. Falsy - values are false, null, NaN, undefined, document.all
+   Truly - Which are not Falsy
+
+7.ForEach - it is a function which is used in arrays to iterate over each element
+         eg- array.ForEach(function(val){
+            return val; 
+         })     
+
+  For in - It is a loop statement used by objects and arrays to iterate 
+         eg- for(key in obj){
+            return obj[key]
+         }        
